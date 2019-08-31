@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color: #e1eded;
+}
+
+.cards{
+	display: flex;
+}
+
+.card-1{
+	width: 600px;
+	margin-top: 160px;
+	margin-left: 60px;
+	margin-bottom: 80px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.card-1-header{
+	padding: 30px;
+	padding-bottom: 10px;
+	display: inline-flex;
+}
+
+.card-1-header > img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.card-1-header > div{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.card-1-header > div > h2{
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+
+.card-1-header > div > p{
+	font-size: 15px;
+	color: #949494;
+	font-weight: lighter;
+}
+
+.card-1-body{
+	padding: 10px 0 40px 30px;
+}
+
+.card-1-body > h1{
+	 font-family: 'Cabin', sans-serif;
+	 padding-bottom: 15px;
+	 font-size: 35px;
+}
+
+.card-1-body > p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #949494;
+	font-weight: lighter;
+	padding-right: 60px;
+}
+
+.card-1-footer{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	padding: 20px;
+	padding-left: 30px;
+	display: flex; 
+}
+
+.card-1-footer > h3 > a{
+	text-decoration: none;
+	color: #3e94f7;
+}
+
+.card-1-footer > p{
+	padding-left: 10px;
+	color: #949494;
+}
+
+.card-1-footer > h3{
+	font-weight: lighter;
+	color: #949494;
+}
+
+.card-2{
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.card-2-header{
+	padding: 30px;
+	padding-bottom: 20px;
+	display: inline-flex;
+}
+
+.card-2-header > img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.card-2-header > div{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.card-2-header > div > h2{
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+
+.card-2-header > div > p{
+	font-size: 15px;
+	color: #949494;
+	font-weight: lighter;
+}
+
+.card-2-body > h1{
+	 font-family: 'Cabin', sans-serif;
+	 padding-left: 30px;
+	 padding-bottom: 5px;
+	 font-size: 35px;
+}
+
+.card-2-body > p{
+	font-family: 'Roboto', sans-serif;
+	padding-left: 30px;
+	font-size: 25px;
+	color: #949494;
+	font-weight: lighter;
+	padding-right: 60px;
+	padding-bottom: 40px;
+}
+
+.card-2-footer{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	padding: 20px;
+	padding-left: 30px;
+	display: flex; 
+}
+
+.card-2-footer > h3 > a{
+	text-decoration: none;
+	color: #3e94f7;
+}
+
+.card-2-footer > p{
+	padding-left: 10px;
+	color: #949494;
+}
+
+.card-2-footer > h3{
+	font-weight: lighter;
+	color: #949494;
+}
